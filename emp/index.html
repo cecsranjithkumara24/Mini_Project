@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    body{
+            
+        background-attachment: fixed;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .h1{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        cursor: default ;
+        letter-spacing: 3px;   
+        position: fixed;
+        top: 170px;
+        left: 410px;
+      }
+      .p{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+        top: 260px;
+        right: 440px;
+      }
+  .content {
+	    position: relative;
+      top: -85px;
+      left: 210px;
+      }
+  
+    .content h2 {
+	  color: #fff;
+	  font-size: 2.5em;
+	  position: absolute;
+	  left: 138px;
+	  top: 5px;
+	  transform: translate(-50%, -50%);
+      }
+  
+    .content h2:nth-child(1) {
+	  color: transparent;
+	  -webkit-text-stroke: 2px #1584c4e3;
+      }
+  
+    .content h2:nth-child(2) {
+	  color: #1584c4e3;
+	  animation: animate 1s ease-in-out infinite;
+    }
+  
+      @keyframes animate {
+	      0%,
+	      100% {
+	    clip-path: polygon(
+		  0% 45%,
+		  16% 44%,
+		  33% 50%,
+		  54% 60%,
+		  70% 61%,
+		  84% 59%,
+		  100% 52%,
+		  100% 100%,
+		  0% 100%
+	  );
+	}
+  
+	50% {
+	  clip-path: polygon(
+		0% 60%,
+		15% 65%,
+		34% 66%,
+		51% 62%,
+		67% 50%,
+		84% 45%,
+		100% 46%,
+		100% 100%,
+		0% 100%
+	  );
+	}
+  }
+    .hh1{
+        font-size: 100px;
+        color: chocolate;
+        cursor: default ;
+        letter-spacing: 10px;   
+        
+    }
+
+    .nav {
+        font-family: 'Titillium Web';
+        text-transform: uppercase;
+        text-align:right;
+        font-weight: 600;
+        size: 100px;
+        font-family:Helvetica, sans-serif;
+        font-family:'Poppins',sans-serif;
+
+      }
+      
+      .nav * {
+        box-sizing: border-box;
+        transition: all .35s ease;
+      }
+      
+      .nav li {
+        display: inline-block;
+        list-style: outside none none;
+        margin: .5em 1em;
+        padding: 0px;
+       
+      }
+      
+      .nav a {
+        padding: .5em .8em;
+        color: rgba(14, 77, 82, 0.979);
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Courier New', monospace;
+        letter-spacing: 2px;
+      }
+      .nav b{
+        position: absolute;
+        font-size: 25px;
+        margin-left: -650px;
+        margin-top: -10px;
+        cursor: default ;
+        font-family: 'Courier New', monospace;
+        letter-spacing: 10px;   
+       color: rgb(237, 163, 16);
+
+      }
+      
+      .nav a::before,
+      .nav a::after {
+        content: '';
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        transition: all .35s ease;
+        opacity: 0;
+      }
+      
+      .nav a::before {
+        content: '';
+        right: 0;
+        top: 0;
+        border-top: 3px solid #1584c4e3;
+        border-right: 3px solid  #1584c4e3;
+        transform: translate(-100%, 50%);
+      }
+      
+      .nav a:after {
+        content: '';
+        left: 0;
+        bottom: 0;
+        border-bottom: 3px solid  #1584c4e3;
+        border-left: 3px solid  #1584c4e3;
+        transform: translate(100%, -50%)
+      }
+      
+      .nav a:hover:before,
+      .nav a:hover:after{
+        transform: translate(0,0);
+        opacity: 1;
+      }
+      
+      .nav a:hover {
+        color:  rgba(255, 153, 0, 0.699);
+      } 
+      #img2{
+      position: absolute;
+      left:1%;
+     height: 100px;
+margin-left: 10px;
+margin-top: -10px;
+
+    }
+    
+   </style>
+</head>
+<body background="4.jpg">
+</div>
+   
+<ul class="nav">
+    <img id="img2" src="logo.png">
+    
+   
+    <li><a href="elogin.html"> Employee Login</a></li>
+    <li><a href="alogin.html">Admin Login</a></li>
+    
+  </ul>
+  
+  <hr size="6px" color="#2596be" >
+
+  
+</div>
+<p class="h1">The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life..!</p>
+<p class="p">-Trace Technologies.</p>
+<div class="content">
+  <h2>TRACE TECHNOLOGIES</h2>
+  <h2>TRACE TECHNOLOGIES</h2>
+  </div>
+</body>
+</html>
